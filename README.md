@@ -25,6 +25,6 @@ jumper-root                (project root folder)
 
 ## Authors
 * Jared McKay    (mck21022@byui.edu)
-* Chanae Ransom  ()
+* Chanae Ransom  (ran21021@byui.edu)
 * Collin Horomba ()
 * Marco Samos    ()
