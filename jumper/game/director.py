@@ -1,4 +1,5 @@
-# from game.wordcreate import ""
+
+from wordcreate import Word
 # from game.letterguess import ""
 # from game.terminal_service import ""
 
@@ -56,3 +57,7 @@ class Director:
             self (Director): An instance of Director.
         """
         pass
+
+# test word class and function
+    # word = Word.getword
+    # print(word)
