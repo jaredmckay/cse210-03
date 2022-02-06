@@ -17,9 +17,9 @@ class Word:
 
     """
 
-    word
+    def __word__ (self):
 
-
+        pass
     """ 
     returns the selected word
     """
