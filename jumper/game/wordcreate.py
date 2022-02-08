@@ -1,6 +1,7 @@
 import random
 
 
+
 class Word:
 
 
@@ -30,9 +31,5 @@ class Word:
         """ 
         returns the selected word
         """
-        word_index = random.randint(1, len(self.words))
-        self.current_word = self.words[word_index -1]
-        print(self.current_word)
-
-# to test if random word is picked:
-Word.getword(self.current_word)
+        chose_word = random.choice(self.words)
+        return chose_word
