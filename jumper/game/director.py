@@ -1,7 +1,7 @@
 
-from wordcreate import Word
-# from game.letterguess import ""
-# from game.terminal_service import ""
+from game.wordcreate import Word
+from game.letterguess import Letter
+from game.terminal_service import Terminal_Services
 
 class Director:
     """ A person who directs the game. 
@@ -21,7 +21,10 @@ class Director:
         Args:
             self (Director): an instance of Director.
         """
-        pass
+        self._word = Word()
+        self._letter = Letter()
+        self._terminal_service = Terminal_Services()
+        self._is_playing = True
 
     def start_game(self):
         """Starts the game by running the main game loop.
@@ -57,7 +60,3 @@ class Director:
             self (Director): An instance of Director.
         """
         pass
-
-# test word class and function
-    # word = Word.getword
-    # print(word)
