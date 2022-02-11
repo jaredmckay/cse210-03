@@ -15,7 +15,7 @@ class Director:
         terminal_serice: for getting and displaying information on the terminal
     
     """
-    def __init__(self):
+    def __init__(self): 
         """Constructs a new Director.
         
         Args:
@@ -38,7 +38,7 @@ class Director:
             self._do_outputs()
 
     def _get_inputs(self):
-        """Moves the seeker to a new location.
+        """Get the letter being guessed
 
         Args:
             self (Director): An instance of Director.
